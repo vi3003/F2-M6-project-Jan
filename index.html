@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="Gallary Picture" />
+        <link rel="icon" href="images/globe.png" type="image/x-icon" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vidhi Jain Frontend 2 AccioJob 1 Feb 2023</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <!-- Main Container -->
+    <div class="container">
+        <div class ="image-gallery">
+            <img src="images/register.jpg" id="img1" />
+            <img src="images/details.jpeg" id="img2" />
+            <img src="images/game.jpg" id="img3" />
+            <img src="images/coupon.jpeg" id="img4" />
+        </div>
+    </div>
+    <!-- Form Container -->
+    <div class="form-container hide">
+      <h2>Enter Your Details</h2>
+      <form>
+        <input type="text" id="username" placeholder="username" /><br>
+        <input type="text" name="" id="name" placeholder="name" /><br>
+        <input type="email" id="email" placeholder="email" /><br>
+        <button id="btn">Register</button>
+      </form>
+    </div>
+    <!-- All others depending upon which image clicked -->
+    <div class="user-details">
+      <h1>Please Click on first Image to Register Yourself</h1>
+    </div>
+    <div class="dice" style="display: flex; gap: 1rem">
+      <img src="images/dice.jpg" class="hide" id="dice" />
+      <h1 class="p"></h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+.container {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .container > image-gallery {
+    flex-basis: 350px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .container image-gallery img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+  }
+  
+  .container image-gallery:hover {
+    transform: scale(1);
+  }
+  
+  #btn {
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+  }
+  .form-container {
+    text-align: center;
+    margin: 10px auto;
+    width: 1200px;
+  }
+  input {
+    width: 600px;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  .hide {
+    display: none;
+  }
