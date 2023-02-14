@@ -1,4 +1,5 @@
 const img1El = document.getElementById("img1");
+console.log("img1El");
 const img2El = document.getElementById("img2");
 const img3El = document.getElementById("img3");
 const img4El = document.getElementById("img4");
@@ -45,10 +46,10 @@ btn.addEventListener("click", (e) => {
 function hanldeImg2() {
   img2El.addEventListener("click", function a() {
     userDetailsEl.innerHTML = `
-      <h1> Username: ${username} </h1>
-        <h1>name: ${Name} </h1>
-        <h3>Please click on third image to roll the dice</h3>
-        `;
+    <h1>Please Click on Third Image to view the game</h1>  
+    <h3> Username: ${username} </h3>
+    <h3>name: ${Name} </h3>
+      `;
     handelImg3();
     img2El.removeEventListener("click", a);
   });
@@ -123,8 +124,11 @@ function getRandom() {
 function hanldeImg4() {
   let random = crypto.randomUUID();
   random = random.slice(-12, -1);
+  userDetailsEl.innerHTML = `
+      <h1>The coupon code  ${"#" + random}</h1>
+  `;
   document.querySelector(".p").innerHTML = `
-      The coupon code  ${"#" + random}
-        <img src="images/congratulations.jpg" id="img4" />
+      <img src="images/congratulations.png" id="img4" style=" align: left; 
+      margin-right:700px;"  />
       `;
 }
