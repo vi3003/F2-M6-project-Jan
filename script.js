@@ -128,7 +128,6 @@ function hanldeImg4() {
       <h1>The coupon code  ${"#" + random}</h1>
   `;
   document.querySelector(".p").innerHTML = `
-      <img src="images/congratulations.png" id="img4" style=" align: left; 
-      margin-right:700px;"  />
+      <img src="images/congratulations.png" id="img4"  />
       `;
 }

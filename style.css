@@ -28,11 +28,17 @@ body {
   .container image-gallery:hover {
     transform: scale(1);
   }
+  .form {
+    background-color: black;
+    color: rgb(162 137 114);
+  }
   
   #btn {
     width: 200px;
     height: 40px;
-    border: 2px solid black;
+    background-color: black;
+    color: rgb(162 137 114);
+    border: 2px solid rgb(203, 162, 124);
   }
   .form-container {
     text-align: center;
@@ -45,10 +51,14 @@ body {
     margin-bottom: 10px;
     font-size: 20px;
   }
+  .dice > img {
+    background-color: rgb(162 137 114);
+  }
   .hide {
     display: none;
   }
 
   .p {
-    color: white;
+    color: black;
+    margin-left: 200px;
   }
