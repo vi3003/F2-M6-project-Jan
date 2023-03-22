@@ -47,8 +47,8 @@ function hanldeImg2() {
   img2El.addEventListener("click", function a() {
     userDetailsEl.innerHTML = `
     <h1>Please Click on Third Image to view the game</h1>  
-    <h3> Username: ${username} </h3>
-    <h3>name: ${Name} </h3>
+    <h2> Username: ${username} </h2>
+    <h2> Name: ${Name} </h2>
       `;
     handelImg3();
     img2El.removeEventListener("click", a);
@@ -128,6 +128,6 @@ function hanldeImg4() {
       <h1>The coupon code  ${"#" + random}</h1>
   `;
   document.querySelector(".p").innerHTML = `
-      <img src="images/congratulations.png" id="img4"  />
+  <img src="images/congratulations.png" id="img4" style="width: 980px;" />
       `;
 }

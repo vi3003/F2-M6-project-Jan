@@ -1,7 +1,10 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap'); */
+
 body {
   background-color: rgb(162 137 114);
+  font-family: 'Italiana', serif;
+  font-size: 25px;
 }
-
 
 .container {
     margin: 10px auto;
@@ -29,16 +32,21 @@ body {
     transform: scale(1);
   }
   .form {
-    background-color: black;
-    color: rgb(162 137 114);
+    background-color: rgb(162 137 114);
+    color: black;
+    font-family: 'Italiana', serif;
+    font-weight: bold;
   }
   
   #btn {
     width: 200px;
     height: 40px;
-    background-color: black;
-    color: rgb(162 137 114);
-    border: 2px solid rgb(203, 162, 124);
+    background-color: rgb(162 137 114);
+    color: black;
+    border: 2px solid black;
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+    font-weight: bold;
   }
   .form-container {
     text-align: center;
